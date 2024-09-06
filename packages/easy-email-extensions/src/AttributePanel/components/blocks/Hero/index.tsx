@@ -66,7 +66,7 @@ export function Hero() {
           <Space direction='vertical'>
             <ImageUploaderField
               label={t('src')}
-              name={`${focusIdx}.attributes.background-url`}
+              name={`${focusIdx}.attributes.background_url`}
               helpText={t(
                 'The image suffix should be .jpg, jpeg, png, gif, etc. Otherwise, the picture may not be displayed normally.',
               )}
@@ -77,7 +77,7 @@ export function Hero() {
               <Grid.Col span={11}>
                 <InputWithUnitField
                   label={t('Background width')}
-                  name={`${focusIdx}.attributes.background-width`}
+                  name={`${focusIdx}.attributes.background_width`}
                 />
               </Grid.Col>
               <Grid.Col
@@ -86,7 +86,7 @@ export function Hero() {
               >
                 <InputWithUnitField
                   label={t('Background height')}
-                  name={`${focusIdx}.attributes.background-height`}
+                  name={`${focusIdx}.attributes.background_height`}
                 />
               </Grid.Col>
             </Grid.Row>
@@ -95,7 +95,7 @@ export function Hero() {
               <Grid.Col span={11}>
                 <TextField
                   label={t('Background position')}
-                  name={`${focusIdx}.attributes.background-position`}
+                  name={`${focusIdx}.attributes.background_position`}
                 />
               </Grid.Col>
               <Grid.Col
@@ -104,7 +104,7 @@ export function Hero() {
               >
                 <InputWithUnitField
                   label={t('Border radius')}
-                  name={`${focusIdx}.attributes.border-radius`}
+                  name={`${focusIdx}.attributes.border_radius`}
                   unitOptions='percent'
                 />
               </Grid.Col>
